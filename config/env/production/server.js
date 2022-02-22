@@ -1,3 +1,3 @@
 module.exports = ({ env }) => ({
-  url: env('https://gwv-api.herokuapp.com/'),
+  url: env('MY_HEROKU_URL'),
 });
