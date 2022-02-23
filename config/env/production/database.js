@@ -4,6 +4,7 @@ console.log(config)
 module.exports = ({ env }) => ({
   connection: {
     client: "postgres",
+    connectionString: process.env.DATABASE_URL,
     connection: {
       host: config.host,
       port: config.port,
